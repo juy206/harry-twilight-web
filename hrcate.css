@@ -1,0 +1,60 @@
+        body { 
+                background: linear-gradient(to right, #45353a 0%, #9e6559 20%, #ce795d 50%, #9e6559 80%, #45353a 100%);
+                font-family: myFirstFont;
+                font-weight: bold; 
+                color: #fff;
+                text-shadow: 0px 0px 0px #fff, -2px 4.5px 3px #5c404a, 2px 0px 4px #fcddbe, 4px -7px 15px #9e6559;
+                text-align: center;
+                letter-spacing: 3px;
+                margin: 0px;
+        }
+        
+        .header {
+            background: linear-gradient(to right, #45353a 0%, #9e6559 20%, #ce795d 50%, #9e6559 80%, #45353a 100%);
+            padding-top: 10x;
+            padding-bottom: 26px;   
+        }
+        
+         ul, li {
+            list-style-type: none;
+            background-color: #1a1210;
+            font-family: myFirstFont; 
+            font-weight: bold; 
+            font-size: 23px;
+            text-shadow: -2px 1px 0px black, 1px -1px 1px #f4bda8;
+            letter-spacing: 3px;
+            padding: 6px 53.2px;
+            border: none;
+            color: #fcddbe;
+            text-align: center;
+            float: center;
+            display: inline-block;
+            text-decoration: none;
+            margin: 0px;
+        }
+        
+        ul > li:hover {
+            font-style: italic;
+            color: #9e6559;
+        }
+        
+        ul > li > ul {
+            position: absolute;
+            padding-left: 0px;
+            font-style: normal;
+            display: none;
+        }
+        
+        ul > li:hover > ul{
+            display: inline-block;
+            color: #9e6559;
+        }
+   
+        ul, li a:link {text-decoration: none; color: #fcddbe;}
+        ul, li a:visited {text-decoration: none; color: #fcddbe;}
+        ul, li a:active {text-decoration: none; color: #fcddbe;}
+        ul, li a:hover {text-decoration: none; color: #9e6559;}
+
+        a:link {text-decoration: none; color: #fff;}
+        a:visited {text-decoration: none; color: #fff;}
+        a:active {text-decoration: none; color: #fff;}

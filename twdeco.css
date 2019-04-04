@@ -1,0 +1,44 @@
+    body { 
+                background: linear-gradient(to right, #000 0%, #00041a 20%, #1a2479 50%, #00041a 80%, #000 100%);
+                font-family: myFirstFont;
+                font-weight: bold; 
+                color: #e9e3d7;
+                text-shadow: none;
+                text-align: center;
+                letter-spacing: 1px;
+                margin: 0px;
+        }
+    h2 {
+        color: #c4bdf1;
+    }
+
+a:link {text-decoration: none; color: #fff;}
+        a:visited {text-decoration: none; color: #fff;}
+        a:active {text-decoration: none; color: #fff;}
+
+
+.button {
+        background-color: #000;
+        font-family: myFirstFont; 
+        font-weight: bold; 
+        font-size: 23px;
+        text-shadow: none;
+        letter-spacing: 1px;
+        padding: 6px 19.2px;
+        border: none;
+        color: #e9e3d7;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0px;
+    }
+   
+    .button:hover {
+        background-color: #1a2479;
+        color: #000;
+    }
+
+abbr {
+    text-decoration: none;
+}
+

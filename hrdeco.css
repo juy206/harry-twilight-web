@@ -1,0 +1,45 @@
+    body { 
+            background: linear-gradient(to right, #45353a 0%, #9e6559 20%, #ce795d 50%, #9e6559 80%, #45353a 100%);
+            font-family: myFirstFont; 
+            font-weight: bold; 
+            color: #fcddbe;
+            text-shadow: 1.2px 1px 0px black;
+            text-align: center;
+            letter-spacing: 3px;
+            margin: 0px;
+    }
+
+    h2 {
+        color: #5d414b;
+    }
+
+a:link {text-decoration: none; color: #fff;}
+        a:visited {text-decoration: none; color: #fff;}
+        a:active {text-decoration: none; color: #fff;}
+
+
+  .button {
+        background-color: #1a1210;
+        font-family: myFirstFont; 
+        font-weight: bold; 
+        font-size: 23px;
+        text-shadow: -2px 1px 0px black, 1px -1px 1px #f4bda8;
+        letter-spacing: 3px;
+        padding: 6px 19.2px;
+        border: none;
+        color: #fcddbe;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0px;
+    }
+   
+    .button:hover {
+        background-color: #ce795d;
+        color: #1a1210;
+    }
+
+abbr {
+    text-decoration: none;
+}
+

@@ -1,0 +1,60 @@
+        body { 
+                background: linear-gradient(to right, #000 0%, #00041a 20%, #1a2479 50%, #00041a 80%, #000 100%);
+                font-family: myFirstFont;
+                font-weight: bold; 
+                color: #fff;
+                text-shadow: 0px 0px 0px #fff, 2px -2px 10px #e9e3d7, -2px 3.3px 6px #000;
+                text-align: center;
+                letter-spacing: 1px;
+                margin: 0px;
+        }
+        
+        .header {
+            background: linear-gradient(to right, #000 0%, #00041a 20%, #1a2479 50%, #00041a 80%, #000 100%);
+            padding-top: 10x;
+            padding-bottom: 26px;   
+        }
+        
+         ul, li {
+            list-style-type: none;
+            background-color: #000;
+            font-family: myFirstFont; 
+            font-weight: bold; 
+            font-size: 23px;
+            text-shadow: none;
+            letter-spacing: 1px;
+            padding: 6px 21.3px;
+            border: none;
+            color: #e9e3d7;
+            text-align: center;
+            float: center;
+            display: inline-block;
+            text-decoration: none;
+            margin: 0px;
+        }
+        
+        ul > li:hover {
+            font-style: italic;
+            color: #c4bdf1;
+        }
+        
+        ul > li > ul {
+            position: absolute;
+            padding-left: 0px;
+            font-style: normal;
+            display: none;
+        }
+        
+        ul > li:hover > ul{
+            display: inline-block;
+            color: #c4bdf1;
+        }
+   
+        ul, li a:link {text-decoration: none; color: #e9e3d7;}
+        ul, li a:visited {text-decoration: none; color: #e9e3d7;}
+        ul, li a:active {text-decoration: none; color: #e9e3d7;}
+        ul, li a:hover {text-decoration: none; color: #c4bdf1;}
+
+        a:link {text-decoration: none; color: #fff;}
+        a:visited {text-decoration: none; color: #fff;}
+        a:active {text-decoration: none; color: #fff;}
